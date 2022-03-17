@@ -13,7 +13,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2352184b-01ab-4c04-b29b-0aaf54188d00" name="Default Changelist" comment="" />
+    <list default="true" id="2352184b-01ab-4c04-b29b-0aaf54188d00" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/book-tracker-data-loader/src/main/java/com/raghad/booktrackerdataloader/authors/AuthorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-tracker-data-loader/src/main/java/com/raghad/booktrackerdataloader/books/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-tracker-data-loader/src/main/java/com/raghad/booktrackerdataloader/books/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-tracker-data-loader/src/main/java/com/raghad/booktrackerdataloader/BookTrackerDataLoaderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-tracker-data-loader/src/main/java/com/raghad/booktrackerdataloader/BookTrackerDataLoaderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-tracker-data-loader/src/main/java/connection/DataStaxAstraProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-tracker-data-loader/src/main/java/com/raghad/booktrackerdataloader/connection/DataStaxAstraProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-tracker-data-loader/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book-tracker-data-loader/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +45,9 @@
     </option>
   </component>
   <component name="ProjectId" id="26PcGKH2uxdKPCaR1kBoJzLLXpj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,6 +56,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.raghad.booktrackerdataloader" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="BookTrackerDataLoaderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -87,23 +103,36 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1647336299854">
+    <state x="488" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1647407067179">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1647336299854" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1647336299854">
+    <state x="488" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1647407067179" />
+    <state x="212" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1647414657078">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1647336299854" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1647336299853">
+    <state x="212" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1647414657078" />
+    <state x="423" y="245" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1647414669610">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1647336299853" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1647336299854">
+    <state x="423" y="245" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728@0.0.1366.728" timestamp="1647414669610" />
+    <state width="1323" height="327" key="GridCell.Tab.0.bottom" timestamp="1647416381627">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1647336299854" />
+    <state width="1323" height="327" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1647416381627" />
+    <state width="1323" height="327" key="GridCell.Tab.0.center" timestamp="1647416381626">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="327" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1647416381626" />
+    <state width="1323" height="327" key="GridCell.Tab.0.left" timestamp="1647416381626">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="327" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1647416381626" />
+    <state width="1323" height="327" key="GridCell.Tab.0.right" timestamp="1647416381627">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="327" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1647416381627" />
   </component>
 </project>

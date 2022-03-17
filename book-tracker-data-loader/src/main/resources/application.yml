@@ -4,7 +4,7 @@ spring:
       keyspace-name: main
       username: exQGZvvbCLzIKrYDefCJaAer
       password: KZkgwu9zPmvkP-KN9UGf83y-8WBc5BvZ,DENZ.gMkaxZaPXvP+k59DRRuDwLxIvACc5rJazq+Ldxc.9F2U4-owpWJsg9UiBRkJFMZs0cjQJitlXWk5vxu+.q.rBCqkab
-      schema-action: create-if-not-exists
+      schema-action: recreate
       request:
         timeout: 10s
       connection:
@@ -13,7 +13,17 @@ spring:
 
 datastax.astra:
   secure-connect-bundle: secure-connect.zip
-  id: a5634f70-c567-4ec0-beaf-2c9eb4923d30-1
+
+astra.db:
+  id: a5634f70-c567-4ec0-beaf-2c9eb4923d30
   region: us-east1
   keyspace: main
   application.token: AstraCS:exQGZvvbCLzIKrYDefCJaAer:d30bb696ef6ff80c093966441951c154f82b607322cde23276e07c65d17ca6bb
+
+
+custom.datadump.location:
+  authors: C:\Users\Raghad\Desktop\my repositories\Book-Tracker-Data-Loader\book-tracker-data-loader\authors.txt
+  works: C:\Users\Raghad\Desktop\my repositories\Book-Tracker-Data-Loader\book-tracker-data-loader\works.txt
+
+
+spring.main.allow-circular-references: true

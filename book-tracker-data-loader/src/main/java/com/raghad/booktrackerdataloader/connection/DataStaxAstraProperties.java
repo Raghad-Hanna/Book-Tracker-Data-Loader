@@ -1,4 +1,4 @@
-package connection;
+package com.raghad.booktrackerdataloader.connection;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
